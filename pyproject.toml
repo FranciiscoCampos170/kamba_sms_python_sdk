@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kambasms"
+version = "1.0.0"
+description = "SDK oficial da KambaSMS para envio de mensagens SMS em Angola"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "KambaSMS", email = "support@kambasms.ao"}]
+keywords = ["sms", "angola", "kambasms", "api", "messaging"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/FranciiscoCampos170/kamba_sms_python_sdk"
+Repository = "https://github.com/FranciiscoCampos170/kamba_sms_python_sdk"
+Issues = "https://github.com/FranciiscoCampos170/kamba_sms_python_sdk/issues"
