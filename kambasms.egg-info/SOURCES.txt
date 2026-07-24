@@ -11,4 +11,5 @@ kambasms.egg-info/top_level.txt
 kambasms/examples/example.py
 kambasms/resources/__init__.py
 kambasms/resources/account.py
+kambasms/resources/otp.py
 kambasms/resources/sms.py
